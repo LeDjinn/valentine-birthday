@@ -11,3 +11,12 @@ export interface HotelData {
     url: string;                // The image URL
     description: string;        // The alt text (description)
   }
+export   interface SiteTouristique {
+    id: number;
+    nom: string;
+    description: string;
+    localisation: string;
+    distanceTozeurKm: number;
+    photos: string[];
+  }
+  
