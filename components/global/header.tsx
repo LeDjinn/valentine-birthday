@@ -18,7 +18,7 @@ const products = [
   { name: 'Comentaires', description: 'Donnez votre avis ou ajouter une blague ', href: '#', icon: CursorArrowRaysIcon },
   { name: 'A savoir', description: 'Choses à savoir', href: '#', icon: FingerPrintIcon },
   { name: 'Albums', description: 'Partagez vos photos', href: '#', icon: SquaresPlusIcon },
-  { name: 'Programmes', description: 'Les prgrammes du jour', href: '#', icon: ArrowPathIcon },
+  { name: 'Programme', description: 'Les prgrammes du jour', href: '/programme', icon: ArrowPathIcon },
 ]
 
 const company = [
