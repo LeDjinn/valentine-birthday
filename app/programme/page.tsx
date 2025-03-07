@@ -3,13 +3,13 @@ import { Timeline } from "@/components/global/timeline";
 import { ZoneCard } from "@/components/global/zone-card";
 import { hotels } from "@/data/hotels";
 import { sitesTozeurs } from "@/data/zone";
-import { div } from "framer-motion/client";
-import { title } from "process";
+
+
 
 const chbika = sitesTozeurs[0];
 const canyonMides = sitesTozeurs[1];
 const temerza = sitesTozeurs[2];
-const chotJerid = sitesTozeurs[3];
+//const chotJerid = sitesTozeurs[3];
 const ongJmel = sitesTozeurs[5];
 const hotelDiar = hotels[0];
 const hotelDarHi = hotels[1];
