@@ -25,8 +25,8 @@ const company = [
   { name: 'Tozeur', href: '#', description: 'Découvrez Tozeur' },
   { name: 'Hotel', href: '#', description: "Les détails de l'hotel "},
   {
-    name: 'Les activités',
-    href: '#',
+    name: 'Les dépenses',
+    href: '/depenses',
     description: 'Les activités choisies ',
   },
 
