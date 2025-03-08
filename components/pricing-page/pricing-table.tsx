@@ -162,13 +162,9 @@ export default function PricingTable() {
               </td>
          
               <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{totals.totalDT.toFixed(2)} DT</td>
-              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{totals.totalEUR.toFixed(2)} €</td>
-              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                {totals.avgPricePerPersonDT ? totals.avgPricePerPersonDT.toFixed(2) + " DT" : "-"}
-              </td>
-              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-blue-600">
-                {totals.avgPricePerPersonEUR.toFixed(2)} €
-              </td>
+              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{(totals.totalDT/3.1).toFixed(2)} €</td>
+          
+          
             </tr>
           </tbody>
         </table>
@@ -244,20 +240,11 @@ export default function PricingTable() {
 
             <div className="flex justify-between">
               <span className="text-gray-700 font-medium">Total (EUR):</span>
-              <span>{totals.totalEUR.toFixed(2)} €</span>
+              <span>{(totals.totalDT/3.1).toFixed(2)} €</span>
             </div>
 
-            {totals.avgPricePerPersonDT > 0 && (
-              <div className="flex justify-between">
-                <span className="text-gray-700 font-medium">En Moyenne par personne (DT):</span>
-                <span>{totals.avgPricePerPersonDT.toFixed(2)} DT</span>
-              </div>
-            )}
 
-            <div className="flex justify-between font-medium">
-              <span className="text-gray-700">En Moyenne par personne (EUR):</span>
-              <span className="text-blue-600">{totals.avgPricePerPersonEUR.toFixed(2)} €</span>
-            </div>
+        
           </div>
         </div>
       </div>
