@@ -9,6 +9,8 @@ export function ZoneCard(props: any) {
           alt={`Photo de ${props.site.nom}`}
           src={props.site.photos[0] || "/placeholder.svg"}
           className="absolute inset-0 size-full bg-gray-50 object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500"
+          width={400}
+          height={300}
         />
         {/* Subtle border instead of rounded corners */}
         <div className="absolute inset-0 border border-gray-200 hover:border-gray-400 transition-all" />

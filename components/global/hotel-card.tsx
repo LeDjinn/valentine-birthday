@@ -9,6 +9,8 @@ export function HotelCard(props: any) {
           alt={props.hotel.images[0]?.description || "Hotel Image"}
           src={props.hotel.images[0]?.url || "https://via.placeholder.com/400"}
           className="aspect-video w-full bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2] grayscale-[20%] group-hover:grayscale-0 transition-all duration-500"
+          width={400}
+          height={300}
         />
         {/* Subtle border instead of rounded corners */}
         <div className="absolute inset-0 border border-gray-200 group-hover:border-gray-400 transition-all" />

@@ -106,6 +106,8 @@ export default function BlogList() {
                   src={post.imageUrl || "/placeholder.svg"}
                   alt={post.title}
                   className="w-full aspect-[4/3] object-cover object-center transition-transform duration-700 group-hover:scale-110"
+                  width={500}
+                  height={500}
                 />
               </div>
             </div>

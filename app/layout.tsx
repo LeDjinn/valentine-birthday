@@ -28,8 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} `}>
-        <Header />
-        <AuthProvider>{children}</AuthProvider>
+        <AuthProvider>
+
+          <Header />
+      
+          {children}
+        </AuthProvider>
 
         <Footer />
       </body>

@@ -89,8 +89,10 @@ export default function Hero() {
             <div className="absolute inset-0 border-[12px] border-black z-10"></div>
             <Image
               alt=""
-              src="images/valentine_birthday-young.jpg"
+              src="/images/valentine_birthday-young.jpg"
               className="aspect-[3/2] object-cover lg:aspect-auto lg:size-full grayscale-[30%] contrast-110"
+              width={500}
+              height={500}
             />
 
             {/* Decorative elements with pastel colors */}

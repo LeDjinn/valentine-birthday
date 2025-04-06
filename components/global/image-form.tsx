@@ -108,6 +108,8 @@ export default function ImageForm() {
                       src={previewUrl || "/placeholder.svg"}
                       alt="Preview"
                       className="w-full h-64 object-contain border-2 border-black dark:border-gray-600"
+                      width={256}
+                      height={256}
                     />
                   </div>
                   <button
