@@ -111,7 +111,7 @@ export default function BlogList() {
             </div>
 
             <div className="p-6">
-              <div className="inline-flex items-center text-xs font-bold bg-black dark:bg-white text-white dark:text-black px-3 py-1 mb-4">
+              <div className="inline-flex items-center text-xs font-bold bg-black g  dark:bg-white text-white dark:text-black px-3 py-1 mb-4">
                 <Calendar className="h-3.5 w-3.5 mr-1.5" />
                 <time dateTime={post.createdAt}>
                   {new Date(post.createdAt).toLocaleDateString("en-US", {
