@@ -101,7 +101,7 @@ export default function TozeurPage() {
                 "Hydratez-vous régulièrement (il fait sec)",
                 "Pensez à la crème solaire même en avril",
                 "Respectez la culture locale (évitez les tenues trop découvertes en ville)",
-                "Goûtez aux dattes de Tozeur et aux spécialités du sud",
+                "Goûtez aux dattes de Tozeur et aux spécialités du sud ",
               ].map((tip, index) => (
                 <div
                   key={index}
