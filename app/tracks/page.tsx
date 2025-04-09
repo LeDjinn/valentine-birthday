@@ -5,6 +5,7 @@ import type React from "react"
 import { useState } from "react"
 import { Music, Upload, Link, X } from "lucide-react"
 import Image from "next/image"
+import TracksList from "@/components/global/tracks-list"
 
 export default function ShareTrackForm() {
   const [title, setTitle] = useState("")
@@ -61,6 +62,7 @@ export default function ShareTrackForm() {
   }
 
   return (
+    <>
     <div className="max-w-2xl mx-auto py-10 px-4">
       <div className="bg-white dark:bg-gray-900 border-4 border-black dark:border-gray-700 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,0.2)]">
         <div className="px-6 py-5 border-b-4 border-black dark:border-gray-700 bg-[#1DB954] dark:bg-[#1DB954]">
@@ -188,6 +190,8 @@ export default function ShareTrackForm() {
         </form>
       </div>
     </div>
+    <TracksList />
+    </>
   )
 }
 
